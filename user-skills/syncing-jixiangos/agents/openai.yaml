@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync jixiangOS"
+  short_description: "Download and upload the jixiangOS repo safely."
+  default_prompt: "Use $syncing-jixiangos to download the latest jixiangOS code or upload local changes."

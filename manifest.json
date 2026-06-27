@@ -1,0 +1,938 @@
+﻿[
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-bundled\\browser\\26.623.42026\\skills\\control-in-app-browser",
+        "repositoryPath":  "plugin-cache/openai-bundled/browser/26.623.42026/skills/control-in-app-browser",
+        "skillFile":  "plugin-cache/openai-bundled/browser/26.623.42026/skills/control-in-app-browser/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-bundled\\chrome\\26.623.42026\\skills\\control-chrome",
+        "repositoryPath":  "plugin-cache/openai-bundled/chrome/26.623.42026/skills/control-chrome",
+        "skillFile":  "plugin-cache/openai-bundled/chrome/26.623.42026/skills/control-chrome/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-bundled\\computer-use\\26.623.42026\\skills\\computer-use",
+        "repositoryPath":  "plugin-cache/openai-bundled/computer-use/26.623.42026/skills/computer-use",
+        "skillFile":  "plugin-cache/openai-bundled/computer-use/26.623.42026/skills/computer-use/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\ios-app-intents",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/ios-app-intents",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/ios-app-intents/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\ios-debugger-agent",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/ios-debugger-agent",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/ios-debugger-agent/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\ios-ettrace-performance",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/ios-ettrace-performance",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/ios-ettrace-performance/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\ios-memgraph-leaks",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/ios-memgraph-leaks",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/ios-memgraph-leaks/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\ios-simulator-browser",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/ios-simulator-browser",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/ios-simulator-browser/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\swiftui-liquid-glass",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/swiftui-liquid-glass",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/swiftui-liquid-glass/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\swiftui-performance-audit",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/swiftui-performance-audit",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/swiftui-performance-audit/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\swiftui-ui-patterns",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/swiftui-ui-patterns",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/swiftui-ui-patterns/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-ios-apps\\0.1.2\\skills\\swiftui-view-refactor",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/swiftui-view-refactor",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-ios-apps/0.1.2/skills/swiftui-view-refactor/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-web-apps\\0.1.2\\skills\\frontend-app-builder",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/frontend-app-builder",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/frontend-app-builder/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-web-apps\\0.1.2\\skills\\frontend-testing-debugging",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/frontend-testing-debugging",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/frontend-testing-debugging/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-web-apps\\0.1.2\\skills\\react-best-practices",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/react-best-practices",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/react-best-practices/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-web-apps\\0.1.2\\skills\\shadcn-best-practices",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/shadcn-best-practices",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/shadcn-best-practices/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-web-apps\\0.1.2\\skills\\stripe-best-practices",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/stripe-best-practices",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/stripe-best-practices/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\build-web-apps\\0.1.2\\skills\\supabase-best-practices",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/supabase-best-practices",
+        "skillFile":  "plugin-cache/openai-curated-remote/build-web-apps/0.1.2/skills/supabase-best-practices/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\github\\0.1.5\\skills\\gh-address-comments",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/github/0.1.5/skills/gh-address-comments",
+        "skillFile":  "plugin-cache/openai-curated-remote/github/0.1.5/skills/gh-address-comments/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\github\\0.1.5\\skills\\gh-fix-ci",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/github/0.1.5/skills/gh-fix-ci",
+        "skillFile":  "plugin-cache/openai-curated-remote/github/0.1.5/skills/gh-fix-ci/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\github\\0.1.5\\skills\\github",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/github/0.1.5/skills/github",
+        "skillFile":  "plugin-cache/openai-curated-remote/github/0.1.5/skills/github/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\github\\0.1.5\\skills\\yeet",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/github/0.1.5/skills/yeet",
+        "skillFile":  "plugin-cache/openai-curated-remote/github/0.1.5/skills/yeet/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\heygen\\3.0.0\\skills\\heygen-avatar",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/heygen/3.0.0/skills/heygen-avatar",
+        "skillFile":  "plugin-cache/openai-curated-remote/heygen/3.0.0/skills/heygen-avatar/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\heygen\\3.0.0\\skills\\heygen-video",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/heygen/3.0.0/skills/heygen-video",
+        "skillFile":  "plugin-cache/openai-curated-remote/heygen/3.0.0/skills/heygen-video/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\hyperframes\\0.1.2\\skills\\gsap",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/hyperframes/0.1.2/skills/gsap",
+        "skillFile":  "plugin-cache/openai-curated-remote/hyperframes/0.1.2/skills/gsap/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\hyperframes\\0.1.2\\skills\\hyperframes",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes",
+        "skillFile":  "plugin-cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\hyperframes\\0.1.2\\skills\\hyperframes-cli",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-cli",
+        "skillFile":  "plugin-cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-cli/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\hyperframes\\0.1.2\\skills\\hyperframes-registry",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-registry",
+        "skillFile":  "plugin-cache/openai-curated-remote/hyperframes/0.1.2/skills/hyperframes-registry/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\hyperframes\\0.1.2\\skills\\website-to-hyperframes",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes",
+        "skillFile":  "plugin-cache/openai-curated-remote/hyperframes/0.1.2/skills/website-to-hyperframes/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\product-design\\0.1.47\\skills\\audit",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/audit",
+        "skillFile":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/audit/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\product-design\\0.1.47\\skills\\design-qa",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/design-qa",
+        "skillFile":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/design-qa/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\product-design\\0.1.47\\skills\\get-context",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/get-context",
+        "skillFile":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/get-context/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\product-design\\0.1.47\\skills\\ideate",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/ideate",
+        "skillFile":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/ideate/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\product-design\\0.1.47\\skills\\image-to-code",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/image-to-code",
+        "skillFile":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/image-to-code/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\product-design\\0.1.47\\skills\\index",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/index",
+        "skillFile":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/index/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\product-design\\0.1.47\\skills\\prototype",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/prototype",
+        "skillFile":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/prototype/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\product-design\\0.1.47\\skills\\research",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/research",
+        "skillFile":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/research/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\product-design\\0.1.47\\skills\\share",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/share",
+        "skillFile":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/share/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\product-design\\0.1.47\\skills\\url-to-code",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/url-to-code",
+        "skillFile":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/url-to-code/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\product-design\\0.1.47\\skills\\user-context",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/user-context",
+        "skillFile":  "plugin-cache/openai-curated-remote/product-design/0.1.47/skills/user-context/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\brainstorming",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/brainstorming",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/brainstorming/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\dispatching-parallel-agents",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/dispatching-parallel-agents",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/dispatching-parallel-agents/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\executing-plans",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/executing-plans",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/executing-plans/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\finishing-a-development-branch",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/finishing-a-development-branch",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/finishing-a-development-branch/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\receiving-code-review",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/receiving-code-review",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/receiving-code-review/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\requesting-code-review",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/requesting-code-review",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/requesting-code-review/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\subagent-driven-development",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/subagent-driven-development",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/subagent-driven-development/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\systematic-debugging",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/systematic-debugging",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/systematic-debugging/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\test-driven-development",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/test-driven-development",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/test-driven-development/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\using-git-worktrees",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/using-git-worktrees",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/using-git-worktrees/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\using-superpowers",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/using-superpowers",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/using-superpowers/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\verification-before-completion",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/verification-before-completion",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/verification-before-completion/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\writing-plans",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/writing-plans",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/writing-plans/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\superpowers\\5.1.4\\skills\\writing-skills",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/writing-skills",
+        "skillFile":  "plugin-cache/openai-curated-remote/superpowers/5.1.4/skills/writing-skills/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\agent-browser",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/agent-browser",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/agent-browser/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\agent-browser-verify",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/agent-browser-verify",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/agent-browser-verify/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\ai-elements",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/ai-elements",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/ai-elements/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\ai-gateway",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/ai-gateway",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/ai-gateway/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\ai-generation-persistence",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/ai-generation-persistence",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/ai-generation-persistence/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\ai-sdk",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/ai-sdk",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/ai-sdk/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\auth",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/auth",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/auth/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\bootstrap",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/bootstrap",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/bootstrap/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\chat-sdk",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/chat-sdk",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/chat-sdk/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\cms",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/cms",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/cms/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\cron-jobs",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/cron-jobs",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/cron-jobs/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\deployments-cicd",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/deployments-cicd",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/deployments-cicd/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\email",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/email",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/email/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\env-vars",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/env-vars",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/env-vars/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\geist",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/geist",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/geist/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\geistdocs",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/geistdocs",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/geistdocs/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\investigation-mode",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/investigation-mode",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/investigation-mode/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\json-render",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/json-render",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/json-render/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\marketplace",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/marketplace",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/marketplace/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\micro",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/micro",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/micro/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\ncc",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/ncc",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/ncc/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\next-forge",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/next-forge",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/next-forge/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\nextjs",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/nextjs",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/nextjs/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\observability",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/observability",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/observability/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\payments",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/payments",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/payments/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\react-best-practices",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/react-best-practices",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/react-best-practices/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\routing-middleware",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/routing-middleware",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/routing-middleware/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\runtime-cache",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/runtime-cache",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/runtime-cache/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\satori",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/satori",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/satori/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\shadcn",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/shadcn",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/shadcn/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\sign-in-with-vercel",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/sign-in-with-vercel",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/sign-in-with-vercel/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\swr",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/swr",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/swr/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\turbopack",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/turbopack",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/turbopack/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\turborepo",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/turborepo",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/turborepo/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\v0-dev",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/v0-dev",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/v0-dev/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\vercel-agent",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-agent",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-agent/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\vercel-api",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-api",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-api/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\vercel-cli",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-cli",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-cli/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\vercel-firewall",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-firewall",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-firewall/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\vercel-flags",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-flags",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-flags/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\vercel-functions",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-functions",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-functions/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\vercel-queues",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-queues",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-queues/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\vercel-sandbox",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-sandbox",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-sandbox/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\vercel-services",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-services",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-services/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\vercel-storage",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-storage",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/vercel-storage/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\verification",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/verification",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/verification/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-curated-remote\\vercel\\1.0.0\\skills\\workflow",
+        "repositoryPath":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/workflow",
+        "skillFile":  "plugin-cache/openai-curated-remote/vercel/1.0.0/skills/workflow/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.623.12021\\skills\\documents",
+        "repositoryPath":  "plugin-cache/openai-primary-runtime/documents/26.623.12021/skills/documents",
+        "skillFile":  "plugin-cache/openai-primary-runtime/documents/26.623.12021/skills/documents/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-primary-runtime\\pdf\\26.623.12021\\skills\\pdf",
+        "repositoryPath":  "plugin-cache/openai-primary-runtime/pdf/26.623.12021/skills/pdf",
+        "skillFile":  "plugin-cache/openai-primary-runtime/pdf/26.623.12021/skills/pdf/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-primary-runtime\\presentations\\26.623.12021\\skills\\presentations",
+        "repositoryPath":  "plugin-cache/openai-primary-runtime/presentations/26.623.12021/skills/presentations",
+        "skillFile":  "plugin-cache/openai-primary-runtime/presentations/26.623.12021/skills/presentations/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-primary-runtime\\spreadsheets\\26.623.12021\\skills\\spreadsheets",
+        "repositoryPath":  "plugin-cache/openai-primary-runtime/spreadsheets/26.623.12021/skills/spreadsheets",
+        "skillFile":  "plugin-cache/openai-primary-runtime/spreadsheets/26.623.12021/skills/spreadsheets/SKILL.md"
+    },
+    {
+        "sourceRoot":  "plugin-cache",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\plugins\\cache\\openai-primary-runtime\\template-creator\\26.623.12021\\skills\\template-creator",
+        "repositoryPath":  "plugin-cache/openai-primary-runtime/template-creator/26.623.12021/skills/template-creator",
+        "skillFile":  "plugin-cache/openai-primary-runtime/template-creator/26.623.12021/skills/template-creator/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\.system\\imagegen",
+        "repositoryPath":  "user-skills/.system/imagegen",
+        "skillFile":  "user-skills/.system/imagegen/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\.system\\openai-docs",
+        "repositoryPath":  "user-skills/.system/openai-docs",
+        "skillFile":  "user-skills/.system/openai-docs/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\.system\\plugin-creator",
+        "repositoryPath":  "user-skills/.system/plugin-creator",
+        "skillFile":  "user-skills/.system/plugin-creator/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\.system\\skill-creator",
+        "repositoryPath":  "user-skills/.system/skill-creator",
+        "skillFile":  "user-skills/.system/skill-creator/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\.system\\skill-installer",
+        "repositoryPath":  "user-skills/.system/skill-installer",
+        "skillFile":  "user-skills/.system/skill-installer/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\ask-matt",
+        "repositoryPath":  "user-skills/ask-matt",
+        "skillFile":  "user-skills/ask-matt/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\awesome-shadcn-ui",
+        "repositoryPath":  "user-skills/awesome-shadcn-ui",
+        "skillFile":  "user-skills/awesome-shadcn-ui/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\brainstorming",
+        "repositoryPath":  "user-skills/brainstorming",
+        "skillFile":  "user-skills/brainstorming/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\codebase-design",
+        "repositoryPath":  "user-skills/codebase-design",
+        "skillFile":  "user-skills/codebase-design/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\decision-mapping",
+        "repositoryPath":  "user-skills/decision-mapping",
+        "skillFile":  "user-skills/decision-mapping/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\design-an-interface",
+        "repositoryPath":  "user-skills/design-an-interface",
+        "skillFile":  "user-skills/design-an-interface/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\diagnosing-bugs",
+        "repositoryPath":  "user-skills/diagnosing-bugs",
+        "skillFile":  "user-skills/diagnosing-bugs/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\domain-modeling",
+        "repositoryPath":  "user-skills/domain-modeling",
+        "skillFile":  "user-skills/domain-modeling/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\edit-article",
+        "repositoryPath":  "user-skills/edit-article",
+        "skillFile":  "user-skills/edit-article/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\find-skills",
+        "repositoryPath":  "user-skills/find-skills",
+        "skillFile":  "user-skills/find-skills/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\frontend-design",
+        "repositoryPath":  "user-skills/frontend-design",
+        "skillFile":  "user-skills/frontend-design/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\git-guardrails-claude-code",
+        "repositoryPath":  "user-skills/git-guardrails-claude-code",
+        "skillFile":  "user-skills/git-guardrails-claude-code/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\grilling",
+        "repositoryPath":  "user-skills/grilling",
+        "skillFile":  "user-skills/grilling/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\grill-me",
+        "repositoryPath":  "user-skills/grill-me",
+        "skillFile":  "user-skills/grill-me/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\grill-with-docs",
+        "repositoryPath":  "user-skills/grill-with-docs",
+        "skillFile":  "user-skills/grill-with-docs/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\handoff",
+        "repositoryPath":  "user-skills/handoff",
+        "skillFile":  "user-skills/handoff/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\implement",
+        "repositoryPath":  "user-skills/implement",
+        "skillFile":  "user-skills/implement/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\improve-codebase-architecture",
+        "repositoryPath":  "user-skills/improve-codebase-architecture",
+        "skillFile":  "user-skills/improve-codebase-architecture/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\jixiang-obsidian-capture",
+        "repositoryPath":  "user-skills/jixiang-obsidian-capture",
+        "skillFile":  "user-skills/jixiang-obsidian-capture/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\jixiang-requirement-interviewer",
+        "repositoryPath":  "user-skills/jixiang-requirement-interviewer",
+        "skillFile":  "user-skills/jixiang-requirement-interviewer/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\loop-me",
+        "repositoryPath":  "user-skills/loop-me",
+        "skillFile":  "user-skills/loop-me/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\migrate-to-shoehorn",
+        "repositoryPath":  "user-skills/migrate-to-shoehorn",
+        "skillFile":  "user-skills/migrate-to-shoehorn/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\obsidian-vault",
+        "repositoryPath":  "user-skills/obsidian-vault",
+        "skillFile":  "user-skills/obsidian-vault/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\pm-skills",
+        "repositoryPath":  "user-skills/pm-skills",
+        "skillFile":  "user-skills/pm-skills/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\prototype",
+        "repositoryPath":  "user-skills/prototype",
+        "skillFile":  "user-skills/prototype/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\qa",
+        "repositoryPath":  "user-skills/qa",
+        "skillFile":  "user-skills/qa/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\request-refactor-plan",
+        "repositoryPath":  "user-skills/request-refactor-plan",
+        "skillFile":  "user-skills/request-refactor-plan/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\resolving-merge-conflicts",
+        "repositoryPath":  "user-skills/resolving-merge-conflicts",
+        "skillFile":  "user-skills/resolving-merge-conflicts/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\review",
+        "repositoryPath":  "user-skills/review",
+        "skillFile":  "user-skills/review/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\scaffold-exercises",
+        "repositoryPath":  "user-skills/scaffold-exercises",
+        "skillFile":  "user-skills/scaffold-exercises/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\setup-matt-pocock-skills",
+        "repositoryPath":  "user-skills/setup-matt-pocock-skills",
+        "skillFile":  "user-skills/setup-matt-pocock-skills/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\setup-pre-commit",
+        "repositoryPath":  "user-skills/setup-pre-commit",
+        "skillFile":  "user-skills/setup-pre-commit/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\superpowers",
+        "repositoryPath":  "user-skills/superpowers",
+        "skillFile":  "user-skills/superpowers/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\syncing-jixiangos",
+        "repositoryPath":  "user-skills/syncing-jixiangos",
+        "skillFile":  "user-skills/syncing-jixiangos/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\taste-skill",
+        "repositoryPath":  "user-skills/taste-skill",
+        "skillFile":  "user-skills/taste-skill/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\tdd",
+        "repositoryPath":  "user-skills/tdd",
+        "skillFile":  "user-skills/tdd/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\teach",
+        "repositoryPath":  "user-skills/teach",
+        "skillFile":  "user-skills/teach/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\to-issues",
+        "repositoryPath":  "user-skills/to-issues",
+        "skillFile":  "user-skills/to-issues/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\to-prd",
+        "repositoryPath":  "user-skills/to-prd",
+        "skillFile":  "user-skills/to-prd/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\triage",
+        "repositoryPath":  "user-skills/triage",
+        "skillFile":  "user-skills/triage/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\ubiquitous-language",
+        "repositoryPath":  "user-skills/ubiquitous-language",
+        "skillFile":  "user-skills/ubiquitous-language/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\writing-beats",
+        "repositoryPath":  "user-skills/writing-beats",
+        "skillFile":  "user-skills/writing-beats/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\writing-fragments",
+        "repositoryPath":  "user-skills/writing-fragments",
+        "skillFile":  "user-skills/writing-fragments/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\writing-great-skills",
+        "repositoryPath":  "user-skills/writing-great-skills",
+        "skillFile":  "user-skills/writing-great-skills/SKILL.md"
+    },
+    {
+        "sourceRoot":  "user-skills",
+        "sourcePath":  "C:\\Users\\jranl\\.codex\\skills\\writing-shape",
+        "repositoryPath":  "user-skills/writing-shape",
+        "skillFile":  "user-skills/writing-shape/SKILL.md"
+    }
+]

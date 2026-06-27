@@ -1,0 +1,3 @@
+display_name: "极享AI需求追问官"
+short_description: "像产品经理一样追问员工，把模糊想法整理成清晰需求简报。"
+default_prompt: "用极享AI需求追问官，一题一题帮我把这个员工需求问清楚，并最后整理成需求简报。"
