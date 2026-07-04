@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Start jixiangOS Local"
+  short_description: "Start local MySQL, API, and Vite for jixiangOS, with port and database diagnostics."
+  default_prompt: "启动极享OS本地服务访问"
