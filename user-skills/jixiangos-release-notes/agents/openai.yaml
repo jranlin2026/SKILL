@@ -1,0 +1,4 @@
+interface:
+  display_name: "JixiangOS Release Notes"
+  short_description: "Write JixiangOS change notices for teams"
+  default_prompt: "Use $jixiangos-release-notes to write a concise JixiangOS update notice for the team."
