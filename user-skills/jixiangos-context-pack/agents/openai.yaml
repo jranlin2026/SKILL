@@ -1,0 +1,4 @@
+interface:
+  display_name: "JixiangOS Context Pack"
+  short_description: "Organize JixiangOS project evidence and decisions"
+  default_prompt: "Use $jixiangos-context-pack to turn JixiangOS source materials into a clear project context pack."
