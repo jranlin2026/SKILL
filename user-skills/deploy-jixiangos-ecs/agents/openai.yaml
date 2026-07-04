@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deploy jixiangOS ECS"
+  short_description: "Deploy jixiangOS to Alibaba Cloud ECS"
+  default_prompt: "Use $deploy-jixiangos-ecs to deploy the latest jixiangOS code to ECS."
