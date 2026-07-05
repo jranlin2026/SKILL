@@ -1,0 +1,4 @@
+interface:
+  display_name: "NGE-Douyin-Settlement"
+  short_description: "生成抖店结算输出表含资金流水核对"
+  default_prompt: "Use $nge-douyin-settlement to generate a Douyin shop settlement output workbook with order detail, talent settlement, and fund-flow audit sheets."

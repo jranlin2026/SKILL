@@ -1,0 +1,4 @@
+interface:
+  display_name: "NGE-Douyin-Flow-Settlement"
+  short_description: "汇总抖店资金流水并按动账场景核对净额"
+  default_prompt: "Use $nge-douyin-flow-settlement to generate a clear Douyin fund-flow summary workbook from an exported 资金流水明细表."
